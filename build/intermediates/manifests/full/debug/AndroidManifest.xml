@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="licethovalles.administrador.app"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Abc"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="licethovalles.administrador.app.MainActivity"
+            android:label="Abc" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="licethovalles.administrador.app.home"
+            android:label="Home Docente" />
+        <activity
+            android:name="licethovalles.administrador.app.homest"
+            android:label="Home Estudiante" />
+        <activity
+            android:name="licethovalles.administrador.app.ListadoCursos"
+            android:label="Listado de Cursos" />
+        <activity
+            android:name="licethovalles.administrador.app.level1"
+            android:label="@string/title_activity_level1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="licethovalles.administrador.app.level2"
+            android:label="@string/title_activity_level2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="licethovalles.administrador.app.curso"
+            android:label="@string/title_activity_curso"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="licethovalles.administrador.app.MainEst"
+            android:label="@string/title_activity_main_est"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="licethovalles.administrador.app.registrarmecurso"
+            android:label="@string/title_activity_registrarmecurso"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="licethovalles.administrador.app.jugar"
+            android:label="@string/title_activity_jugar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="licethovalles.administrador.app.registro"
+            android:label="@string/title_activity_registro"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="licethovalles.administrador.app.level3"
+            android:label="@string/title_activity_level3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="licethovalles.administrador.app.listadoest"
+            android:label="@string/title_activity_listadoest"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

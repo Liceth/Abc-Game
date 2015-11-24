@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="@drawable/back">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1">
+
+
+        <EditText
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_weight="0.03"
+        android:hint="Usuario"
+            android:layout_marginTop="110dp" />
+
+        <EditText
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_weight="0.03"
+            android:hint="Contraseña" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/button"
+        android:background="#FF3399"
+        android:layout_marginTop="50dp"
+        android:onClick="requestData"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="50dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registrate Aqui"
+            android:id="@+id/textView2"
+            android:textColor="#4b463f"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp" />
+
+        <Button
+            android:layout_width="127dp"
+            android:layout_height="wrap_content"
+            android:text="Crear Cuenta"
+            android:id="@+id/button2"
+            android:background="#FF3399"
+            android:layout_marginTop="5dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="right" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+<!-- From: file:/Users/bballest/Desktop/App/app/src/main/res/layout/activity_main.xml -->
